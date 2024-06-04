@@ -192,18 +192,3 @@ Resume camera stream and scanner.
 ```dart
 await controller.resumeCamera();
 ```
-
-
-# SDK
-Requires at least SDK 20.
-Requires at least iOS 8.
-
-# TODOs
-* iOS Native embedding is written to match what is supported in the framework as of the date of publication of this package. It needs to be improved as the framework support improves.
-* In future, options will be provided for default states.
-* Finally, I welcome PR's to make it better :), thanks
-
-# Credits
-* Android: https://github.com/zxing/zxing
-* iOS: https://github.com/mikebuss/MTBBarcodeScanner
-* Special Thanks To: LeonDevLifeLog for his contributions towards improving this package.
